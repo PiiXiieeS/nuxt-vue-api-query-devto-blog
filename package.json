@@ -1,0 +1,32 @@
+{
+  "name": "vue-api-query-nuxt-usage-example",
+  "version": "1.0.0",
+  "description": "",
+  "author": "Nuxt.js Team",
+  "private": true,
+  "scripts": {
+    "dev": "MINIMAL=1 CSB=1 nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "lint:js": "eslint --ext .js,.vue --ignore-path .gitignore .",
+    "lint": "yarn lint:js",
+    "post-update": "yarn upgrade --latest"
+  },
+  "dependencies": {
+    "@nuxtjs/axios": "^5.12.2",
+    "nuxt": "^2.14.9",
+    "reqlim": "0.0.0",
+    "vue-api-query": "^1.8.2",
+    "vue-content-placeholders": "^0.2.1",
+    "vue-observe-visibility": "^0.4.6"
+  },
+  "devDependencies": {
+    "@nuxtjs/style-resources": "^1.0.0",
+    "@nuxtjs/svg": "^0.1.12",
+    "babel-eslint": "^10.1.0",
+    "sass": "^1.29.0",
+    "sass-loader": "^10.1.0"
+  },
+  "keywords": []
+}
